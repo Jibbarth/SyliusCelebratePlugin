@@ -1,0 +1,17 @@
+{
+    "name": "@barth/sylius-celebrate-plugin",
+    "version": "0.1.0",
+    "symfony": {
+        "controllers": {
+            "celebrate": {
+                "main": "controllers/celebrate_controller.js",
+                "fetch": "lazy",
+                "enabled": true
+            }
+        }
+    },
+    "peerDependencies": {
+        "@hotwired/stimulus": "^3.0.0",
+        "js-confetti": "^0.12.0"
+    }
+}
