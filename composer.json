@@ -1,9 +1,13 @@
 {
     "name": "barth/sylius-celebrate-plugin",
-    "type": "symfony-bundle",
+    "type": "sylius-plugin",
     "license": "MIT",
     "description": "POC plugin that show how using stimulus inside a plugin",
     "minimum-stability": "stable",
+    "keywords": [
+        "sylius-plugin",
+        "symfony-ux"
+    ],
     "require": {
         "php": ">=8.1",
         "symfony/framework-bundle": "^6.4|^7.0",
