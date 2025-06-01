@@ -1,0 +1,28 @@
+{
+    "name": "barth/sylius-celebrate-plugin",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "description": "POC plugin that show how using stimulus inside a plugin",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1",
+        "symfony/framework-bundle": "^6.4|^7.0",
+        "sylius/sylius": "^2.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Barth\\SyliusCelebratePlugin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Barth\\SyliusCelebratePlugin\\Tests\\": "tests/"
+        }
+    }
+}
