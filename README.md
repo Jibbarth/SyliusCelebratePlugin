@@ -26,4 +26,4 @@ and stimulus controllers are automatically registered thanks to Flex.
 
 ## Demo 
 
-https://github.com/user-attachments/assets/f32a6c5c-b66b-4ac5-84aa-d8a48146b566
+https://github.com/user-attachments/assets/8d5ec425-69fc-4b94-8906-585ae6662a25
